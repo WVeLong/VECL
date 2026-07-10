@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.nfs*
+
+# Logs and experiment outputs
+wandb/
+lightning_logs/
+data/CSV/
+data/output/
+data/ckpt/
+*.log
+
+# Large model artifacts; publish these via GitHub Releases.
+pretrain_model/
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+
+# Raw medical images are not distributed in this repository.
+Dataset/**/*.jpg
+Dataset/**/*.jpeg
+Dataset/**/*.png
+Dataset/**/*.dcm
+Dataset/**/*.nii
+Dataset/**/*.nii.gz
+Dataset/**/*.nrrd
+Dataset/**/*.mha
+Dataset/**/*.mhd
+
+# Large/intermediate metadata should go to Release assets.
+Dataset/**/*.pickle
+Dataset/**/*.pkl
+Dataset/**/*.npy
+Dataset/**/*.npz
+
+# Release staging artifacts
+release_assets/
+
+# Large or report-derived MIMIC metadata is not committed to GitHub.
+Dataset/MIMIC/report_sentences.csv
+Dataset/MIMIC/mimic-cxr-image-report-pair.csv
+Dataset/MIMIC/mimic-cxr-label-LLM_report-xinhuo-chexpertformat.csv
+Dataset/MIMIC/retrieval_report_corpus.pickle
+Dataset/MIMIC/captions*.pickle
+Dataset/MIMIC/chexper_labeler/
+Dataset/MIMIC/chexpert_labeler_final.pickle
+
+# Labeler local/generated assets
+labeler/data/
+labeler/model/*.tar
+labeler/model/GENIA+PubMed/
+
+# Report-text CSVs are excluded from public Git history.
+Dataset/CheXlabeler/oral_report_sentences_*.csv
+Dataset/MIMIC/mimic-cxr-test.csv
+
+# Additional report-derived/local data exclusions
+Dataset/MIMIC-CXR-JPG/
+Dataset/MIMIC/oral_report_sentences.csv
+labeler/chexpert-labeler/*.csv
+
+Dataset/MIMIC/report_sentences_labels.csv

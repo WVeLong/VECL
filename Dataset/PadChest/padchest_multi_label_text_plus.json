@@ -1,0 +1,1154 @@
+{
+    "0": [
+        "There is COPD Signs"
+    ],
+    "1": [
+        "There is no COPD Signs"
+    ],
+    "2": [
+        "There is Chilaiditi Sign"
+    ],
+    "3": [
+        "There is no Chilaiditi Sign"
+    ],
+    "4": [
+        "There is Nasogastric Tube"
+    ],
+    "5": [
+        "There is no Nasogastric Tube"
+    ],
+    "6": [
+        "There is Abnormal Foreign Body"
+    ],
+    "7": [
+        "There is no Abnormal Foreign Body"
+    ],
+    "8": [
+        "There is Abscess"
+    ],
+    "9": [
+        "There is no Abscess"
+    ],
+    "10": [
+        "There is Adenopathy"
+    ],
+    "11": [
+        "There is no Adenopathy"
+    ],
+    "12": [
+        "There is Air Bronchogram"
+    ],
+    "13": [
+        "There is no Air Bronchogram"
+    ],
+    "14": [
+        "There is Air Fluid Level"
+    ],
+    "15": [
+        "There is no Air Fluid Level"
+    ],
+    "16": [
+        "There is Air Trapping"
+    ],
+    "17": [
+        "There is no Air Trapping"
+    ],
+    "18": [
+        "There is Alveolar Pattern"
+    ],
+    "19": [
+        "There is no Alveolar Pattern"
+    ],
+    "20": [
+        "There is Aortic Aneurysm"
+    ],
+    "21": [
+        "There is no Aortic Aneurysm"
+    ],
+    "22": [
+        "There is Aortic Atheromatosis"
+    ],
+    "23": [
+        "There is no Aortic Atheromatosis"
+    ],
+    "24": [
+        "There is Aortic Button Enlargement"
+    ],
+    "25": [
+        "There is no Aortic Button Enlargement"
+    ],
+    "26": [
+        "There is Aortic Elongation"
+    ],
+    "27": [
+        "There is no Aortic Elongation"
+    ],
+    "28": [
+        "There is Aortic Endoprosthesis"
+    ],
+    "29": [
+        "There is no Aortic Endoprosthesis"
+    ],
+    "30": [
+        "There is Apical Pleural Thickening"
+    ],
+    "31": [
+        "There is no Apical Pleural Thickening"
+    ],
+    "32": [
+        "There is Artificial Aortic Heart Valve"
+    ],
+    "33": [
+        "There is no Artificial Aortic Heart Valve"
+    ],
+    "34": [
+        "There is Artificial Heart Valve"
+    ],
+    "35": [
+        "There is no Artificial Heart Valve"
+    ],
+    "36": [
+        "There is Artificial Mitral Heart Valve"
+    ],
+    "37": [
+        "There is no Artificial Mitral Heart Valve"
+    ],
+    "38": [
+        "There is Asbestosis Signs"
+    ],
+    "39": [
+        "There is no Asbestosis Signs"
+    ],
+    "40": [
+        "There is Ascendant Aortic Elongation"
+    ],
+    "41": [
+        "There is no Ascendant Aortic Elongation"
+    ],
+    "42": [
+        "There is Atelectasis"
+    ],
+    "43": [
+        "There is no Atelectasis"
+    ],
+    "44": [
+        "There is Basal Atelectasis"
+    ],
+    "45": [
+        "There is no Basal Atelectasis"
+    ],
+    "46": [
+        "There is Atypical Pneumonia"
+    ],
+    "47": [
+        "There is no Atypical Pneumonia"
+    ],
+    "48": [
+        "There is Axial Hyperostosis"
+    ],
+    "49": [
+        "There is no Axial Hyperostosis"
+    ],
+    "50": [
+        "There is Azygoesophageal Recess Shift"
+    ],
+    "51": [
+        "There is no Azygoesophageal Recess Shift"
+    ],
+    "52": [
+        "There is Azygos Lobe"
+    ],
+    "53": [
+        "There is no Azygos Lobe"
+    ],
+    "54": [
+        "There is Blastic Bone Lesion"
+    ],
+    "55": [
+        "There is no Blastic Bone Lesion"
+    ],
+    "56": [
+        "There is Bone Cement"
+    ],
+    "57": [
+        "There is no Bone Cement"
+    ],
+    "58": [
+        "There is Bone Metastasis"
+    ],
+    "59": [
+        "There is no Bone Metastasis"
+    ],
+    "60": [
+        "There is Breast Mass"
+    ],
+    "61": [
+        "There is no Breast Mass"
+    ],
+    "62": [
+        "There is Bronchiectasis"
+    ],
+    "63": [
+        "There is no Bronchiectasis"
+    ],
+    "64": [
+        "There is Bronchovascular Markings"
+    ],
+    "65": [
+        "There is no Bronchovascular Markings"
+    ],
+    "66": [
+        "There is Bullae"
+    ],
+    "67": [
+        "There is no Bullae"
+    ],
+    "68": [
+        "There is Calcified Adenopathy"
+    ],
+    "69": [
+        "There is no Calcified Adenopathy"
+    ],
+    "70": [
+        "There is Calcified Densities"
+    ],
+    "71": [
+        "There is no Calcified Densities"
+    ],
+    "72": [
+        "There is Calcified Fibroadenoma"
+    ],
+    "73": [
+        "There is no Calcified Fibroadenoma"
+    ],
+    "74": [
+        "There is Calcified Granuloma"
+    ],
+    "75": [
+        "There is no Calcified Granuloma"
+    ],
+    "76": [
+        "There is Calcified Mediastinal Adenopathy"
+    ],
+    "77": [
+        "There is no Calcified Mediastinal Adenopathy"
+    ],
+    "78": [
+        "There is Calcified Pleural Plaques"
+    ],
+    "79": [
+        "There is no Calcified Pleural Plaques"
+    ],
+    "80": [
+        "There is Calcified Pleural Thickening"
+    ],
+    "81": [
+        "There is no Calcified Pleural Thickening"
+    ],
+    "82": [
+        "There is Callus Rib Fracture"
+    ],
+    "83": [
+        "There is no Callus Rib Fracture"
+    ],
+    "84": [
+        "There is Cardiomegaly"
+    ],
+    "85": [
+        "There is no Cardiomegaly"
+    ],
+    "86": [
+        "There is Catheter"
+    ],
+    "87": [
+        "There is no Catheter"
+    ],
+    "88": [
+        "There is Cavitation"
+    ],
+    "89": [
+        "There is no Cavitation"
+    ],
+    "90": [
+        "There is Central Vascular Redistribution"
+    ],
+    "91": [
+        "There is no Central Vascular Redistribution"
+    ],
+    "92": [
+        "There is Central Venous Catheter"
+    ],
+    "93": [
+        "There is no Central Venous Catheter"
+    ],
+    "94": [
+        "There is Central Venous Catheter via Jugular Vein"
+    ],
+    "95": [
+        "There is no Central Venous Catheter via Jugular Vein"
+    ],
+    "96": [
+        "There is Central Venous Catheter via Subclavian Vein"
+    ],
+    "97": [
+        "There is no Central Venous Catheter via Subclavian Vein"
+    ],
+    "98": [
+        "There is Central Venous Catheter via Umbilical Vein"
+    ],
+    "99": [
+        "There is no Central Venous Catheter via Umbilical Vein"
+    ],
+    "100": [
+        "There is Cervical Rib"
+    ],
+    "101": [
+        "There is no Cervical Rib"
+    ],
+    "102": [
+        "There is Chest Drain Tube"
+    ],
+    "103": [
+        "There is no Chest Drain Tube"
+    ],
+    "104": [
+        "There is Chronic Changes"
+    ],
+    "105": [
+        "There is no Chronic Changes"
+    ],
+    "106": [
+        "There is Clavicle Fracture"
+    ],
+    "107": [
+        "There is no Clavicle Fracture"
+    ],
+    "108": [
+        "There is Consolidation"
+    ],
+    "109": [
+        "There is no Consolidation"
+    ],
+    "110": [
+        "There is Costochondral Junction Hypertrophy"
+    ],
+    "111": [
+        "There is no Costochondral Junction Hypertrophy"
+    ],
+    "112": [
+        "There is Costophrenic Angle Blunting"
+    ],
+    "113": [
+        "There is no Costophrenic Angle Blunting"
+    ],
+    "114": [
+        "There is Cyst"
+    ],
+    "115": [
+        "There is no Cyst"
+    ],
+    "116": [
+        "There is DAI (Diffuse Axonal Injury)"
+    ],
+    "117": [
+        "There is no DAI (Diffuse Axonal Injury)"
+    ],
+    "118": [
+        "There is Descendant Aortic Elongation"
+    ],
+    "119": [
+        "There is no Descendant Aortic Elongation"
+    ],
+    "120": [
+        "There is Dextrocardia"
+    ],
+    "121": [
+        "There is no Dextrocardia"
+    ],
+    "122": [
+        "There is Diaphragmatic Eventration"
+    ],
+    "123": [
+        "There is no Diaphragmatic Eventration"
+    ],
+    "124": [
+        "There is Double J Stent"
+    ],
+    "125": [
+        "There is no Double J Stent"
+    ],
+    "126": [
+        "There is Dual Chamber Device"
+    ],
+    "127": [
+        "There is no Dual Chamber Device"
+    ],
+    "128": [
+        "There is Electrical Device"
+    ],
+    "129": [
+        "There is no Electrical Device"
+    ],
+    "130": [
+        "There is Emphysema"
+    ],
+    "131": [
+        "There is no Emphysema"
+    ],
+    "132": [
+        "There is Empyema"
+    ],
+    "133": [
+        "There is no Empyema"
+    ],
+    "134": [
+        "There is End on Vessel"
+    ],
+    "135": [
+        "There is no End on Vessel"
+    ],
+    "136": [
+        "There is Endoprosthesis"
+    ],
+    "137": [
+        "There is no Endoprosthesis"
+    ],
+    "138": [
+        "There is Endotracheal Tube"
+    ],
+    "139": [
+        "There is no Endotracheal Tube"
+    ],
+    "140": [
+        "There is Esophagic Dilatation"
+    ],
+    "141": [
+        "There is no Esophagic Dilatation"
+    ],
+    "142": [
+        "There is Exclude"
+    ],
+    "143": [
+        "There is no Exclude"
+    ],
+    "144": [
+        "There is External Foreign Body"
+    ],
+    "145": [
+        "There is no External Foreign Body"
+    ],
+    "146": [
+        "There is Fibrotic Band"
+    ],
+    "147": [
+        "There is no Fibrotic Band"
+    ],
+    "148": [
+        "There is Fissure Thickening"
+    ],
+    "149": [
+        "There is no Fissure Thickening"
+    ],
+    "150": [
+        "There is Flattened Diaphragm"
+    ],
+    "151": [
+        "There is no Flattened Diaphragm"
+    ],
+    "152": [
+        "There is Fracture"
+    ],
+    "153": [
+        "There is no Fracture"
+    ],
+    "154": [
+        "There is Gastrostomy Tube"
+    ],
+    "155": [
+        "There is no Gastrostomy Tube"
+    ],
+    "156": [
+        "There is Goiter"
+    ],
+    "157": [
+        "There is no Goiter"
+    ],
+    "158": [
+        "There is Granuloma"
+    ],
+    "159": [
+        "There is no Granuloma"
+    ],
+    "160": [
+        "There is Ground Glass Pattern"
+    ],
+    "161": [
+        "There is no Ground Glass Pattern"
+    ],
+    "162": [
+        "There is Gynecomastia"
+    ],
+    "163": [
+        "There is no Gynecomastia"
+    ],
+    "164": [
+        "There is Heart Insufficiency"
+    ],
+    "165": [
+        "There is no Heart Insufficiency"
+    ],
+    "166": [
+        "There is Heart Valve Calcified"
+    ],
+    "167": [
+        "There is no Heart Valve Calcified"
+    ],
+    "168": [
+        "There is Hemidiaphragm Elevation"
+    ],
+    "169": [
+        "There is no Hemidiaphragm Elevation"
+    ],
+    "170": [
+        "There is Hiatal Hernia"
+    ],
+    "171": [
+        "There is no Hiatal Hernia"
+    ],
+    "172": [
+        "There is Hilar Congestion"
+    ],
+    "173": [
+        "There is no Hilar Congestion"
+    ],
+    "174": [
+        "There is Hilar Enlargement"
+    ],
+    "175": [
+        "There is no Hilar Enlargement"
+    ],
+    "176": [
+        "There is Humeral Fracture"
+    ],
+    "177": [
+        "There is no Humeral Fracture"
+    ],
+    "178": [
+        "There is Humeral Prosthesis"
+    ],
+    "179": [
+        "There is no Humeral Prosthesis"
+    ],
+    "180": [
+        "There is Hydropneumothorax"
+    ],
+    "181": [
+        "There is no Hydropneumothorax"
+    ],
+    "182": [
+        "There is Hyperinflated Lung"
+    ],
+    "183": [
+        "There is no Hyperinflated Lung"
+    ],
+    "184": [
+        "There is Hypoexpansion"
+    ],
+    "185": [
+        "There is no Hypoexpansion"
+    ],
+    "186": [
+        "There is Hypoexpansion Basal"
+    ],
+    "187": [
+        "There is no Hypoexpansion Basal"
+    ],
+    "188": [
+        "There is Increased Density"
+    ],
+    "189": [
+        "There is no Increased Density"
+    ],
+    "190": [
+        "There is Infiltrates"
+    ],
+    "191": [
+        "There is no Infiltrates"
+    ],
+    "192": [
+        "There is Interstitial Pattern"
+    ],
+    "193": [
+        "There is no Interstitial Pattern"
+    ],
+    "194": [
+        "There is Kerley Lines"
+    ],
+    "195": [
+        "There is no Kerley Lines"
+    ],
+    "196": [
+        "There is Kyphosis"
+    ],
+    "197": [
+        "There is no Kyphosis"
+    ],
+    "198": [
+        "There is Laminar Atelectasis"
+    ],
+    "199": [
+        "There is no Laminar Atelectasis"
+    ],
+    "200": [
+        "There is Lepidic Adenocarcinoma"
+    ],
+    "201": [
+        "There is no Lepidic Adenocarcinoma"
+    ],
+    "202": [
+        "There is Lipomatosis"
+    ],
+    "203": [
+        "There is no Lipomatosis"
+    ],
+    "204": [
+        "There is Lobar Atelectasis"
+    ],
+    "205": [
+        "There is no Lobar Atelectasis"
+    ],
+    "206": [
+        "There is Loculated Fissural Effusion"
+    ],
+    "207": [
+        "There is no Loculated Fissural Effusion"
+    ],
+    "208": [
+        "There is Loculated Pleural Effusion"
+    ],
+    "209": [
+        "There is no Loculated Pleural Effusion"
+    ],
+    "210": [
+        "There is Lung Metastasis"
+    ],
+    "211": [
+        "There is no Lung Metastasis"
+    ],
+    "212": [
+        "There is Lung Vascular Paucity"
+    ],
+    "213": [
+        "There is no Lung Vascular Paucity"
+    ],
+    "214": [
+        "There is Lymphangitis Carcinomatosa"
+    ],
+    "215": [
+        "There is no Lymphangitis Carcinomatosa"
+    ],
+    "216": [
+        "There is Lytic Bone Lesion"
+    ],
+    "217": [
+        "There is no Lytic Bone Lesion"
+    ],
+    "218": [
+        "There is Major Fissure Thickening"
+    ],
+    "219": [
+        "There is no Major Fissure Thickening"
+    ],
+    "220": [
+        "There is Mammary Prosthesis"
+    ],
+    "221": [
+        "There is no Mammary Prosthesis"
+    ],
+    "222": [
+        "There is Mass"
+    ],
+    "223": [
+        "There is no Mass"
+    ],
+    "224": [
+        "There is Mastectomy"
+    ],
+    "225": [
+        "There is no Mastectomy"
+    ],
+    "226": [
+        "There is Mediastinal Enlargement"
+    ],
+    "227": [
+        "There is no Mediastinal Enlargement"
+    ],
+    "228": [
+        "There is Mediastinal Mass"
+    ],
+    "229": [
+        "There is no Mediastinal Mass"
+    ],
+    "230": [
+        "There is Mediastinal Shift"
+    ],
+    "231": [
+        "There is no Mediastinal Shift"
+    ],
+    "232": [
+        "There is Mediastinic Lipomatosis"
+    ],
+    "233": [
+        "There is no Mediastinic Lipomatosis"
+    ],
+    "234": [
+        "There is Metal"
+    ],
+    "235": [
+        "There is no Metal"
+    ],
+    "236": [
+        "There is Miliary Opacities"
+    ],
+    "237": [
+        "There is no Miliary Opacities"
+    ],
+    "238": [
+        "There is Minor Fissure Thickening"
+    ],
+    "239": [
+        "There is no Minor Fissure Thickening"
+    ],
+    "240": [
+        "There is Multiple Nodules"
+    ],
+    "241": [
+        "There is no Multiple Nodules"
+    ],
+    "242": [
+        "There is Nephrostomy Tube"
+    ],
+    "243": [
+        "There is no Nephrostomy Tube"
+    ],
+    "244": [
+        "There is Nipple Shadow"
+    ],
+    "245": [
+        "There is no Nipple Shadow"
+    ],
+    "246": [
+        "There is Nodule"
+    ],
+    "247": [
+        "There is no Nodule"
+    ],
+    "248": [
+        "There is Non-Axial Articular Degenerative Changes"
+    ],
+    "249": [
+        "There is no Non-Axial Articular Degenerative Changes"
+    ],
+    "250": [
+        "There is Obesity"
+    ],
+    "251": [
+        "There is no Obesity"
+    ],
+    "252": [
+        "There is Osteopenia"
+    ],
+    "253": [
+        "There is no Osteopenia"
+    ],
+    "254": [
+        "There is Osteoporosis"
+    ],
+    "255": [
+        "There is no Osteoporosis"
+    ],
+    "256": [
+        "There is Osteosynthesis Material"
+    ],
+    "257": [
+        "There is no Osteosynthesis Material"
+    ],
+    "258": [
+        "There is Pacemaker"
+    ],
+    "259": [
+        "There is no Pacemaker"
+    ],
+    "260": [
+        "There is Pectus Carinatum"
+    ],
+    "261": [
+        "There is no Pectus Carinatum"
+    ],
+    "262": [
+        "There is Pectus Excavatum"
+    ],
+    "263": [
+        "There is no Pectus Excavatum"
+    ],
+    "264": [
+        "There is Pericardial Effusion"
+    ],
+    "265": [
+        "There is no Pericardial Effusion"
+    ],
+    "266": [
+        "There is Pleural Effusion"
+    ],
+    "267": [
+        "There is no Pleural Effusion"
+    ],
+    "268": [
+        "There is Pleural Mass"
+    ],
+    "269": [
+        "There is no Pleural Mass"
+    ],
+    "270": [
+        "There is Pleural Plaques"
+    ],
+    "271": [
+        "There is no Pleural Plaques"
+    ],
+    "272": [
+        "There is Pleural Thickening"
+    ],
+    "273": [
+        "There is no Pleural Thickening"
+    ],
+    "274": [
+        "There is Pneumomediastinum"
+    ],
+    "275": [
+        "There is no Pneumomediastinum"
+    ],
+    "276": [
+        "There is Pneumonia"
+    ],
+    "277": [
+        "There is no Pneumonia"
+    ],
+    "278": [
+        "There is Pneumoperitoneum"
+    ],
+    "279": [
+        "There is no Pneumoperitoneum"
+    ],
+    "280": [
+        "There is Pneumothorax"
+    ],
+    "281": [
+        "There is no Pneumothorax"
+    ],
+    "282": [
+        "There is Post-Radiotherapy Changes"
+    ],
+    "283": [
+        "There is no Post-Radiotherapy Changes"
+    ],
+    "284": [
+        "There is Prosthesis"
+    ],
+    "285": [
+        "There is no Prosthesis"
+    ],
+    "286": [
+        "There is Pseudonodule"
+    ],
+    "287": [
+        "There is no Pseudonodule"
+    ],
+    "288": [
+        "There is Pulmonary Artery Enlargement"
+    ],
+    "289": [
+        "There is no Pulmonary Artery Enlargement"
+    ],
+    "290": [
+        "There is Pulmonary Artery Hypertension"
+    ],
+    "291": [
+        "There is no Pulmonary Artery Hypertension"
+    ],
+    "292": [
+        "There is Pulmonary Edema"
+    ],
+    "293": [
+        "There is no Pulmonary Edema"
+    ],
+    "294": [
+        "There is Pulmonary Fibrosis"
+    ],
+    "295": [
+        "There is no Pulmonary Fibrosis"
+    ],
+    "296": [
+        "There is Pulmonary Hypertension"
+    ],
+    "297": [
+        "There is no Pulmonary Hypertension"
+    ],
+    "298": [
+        "There is Pulmonary Mass"
+    ],
+    "299": [
+        "There is no Pulmonary Mass"
+    ],
+    "300": [
+        "There is Pulmonary Venous Hypertension"
+    ],
+    "301": [
+        "There is no Pulmonary Venous Hypertension"
+    ],
+    "302": [
+        "There is Reservoir Central Venous Catheter"
+    ],
+    "303": [
+        "There is no Reservoir Central Venous Catheter"
+    ],
+    "304": [
+        "There is Respiratory Distress"
+    ],
+    "305": [
+        "There is no Respiratory Distress"
+    ],
+    "306": [
+        "There is Reticular Interstitial Pattern"
+    ],
+    "307": [
+        "There is no Reticular Interstitial Pattern"
+    ],
+    "308": [
+        "There is Reticulonodular Interstitial Pattern"
+    ],
+    "309": [
+        "There is no Reticulonodular Interstitial Pattern"
+    ],
+    "310": [
+        "There is Rib Fracture"
+    ],
+    "311": [
+        "There is no Rib Fracture"
+    ],
+    "312": [
+        "There is Right-Sided Aortic Arch"
+    ],
+    "313": [
+        "There is no Right-Sided Aortic Arch"
+    ],
+    "314": [
+        "There is Round Atelectasis"
+    ],
+    "315": [
+        "There is no Round Atelectasis"
+    ],
+    "316": [
+        "There is Sclerotic Bone Lesion"
+    ],
+    "317": [
+        "There is no Sclerotic Bone Lesion"
+    ],
+    "318": [
+        "There is Scoliosis"
+    ],
+    "319": [
+        "There is no Scoliosis"
+    ],
+    "320": [
+        "There is Segmental Atelectasis"
+    ],
+    "321": [
+        "There is no Segmental Atelectasis"
+    ],
+    "322": [
+        "There is Single Chamber Device"
+    ],
+    "323": [
+        "There is no Single Chamber Device"
+    ],
+    "324": [
+        "There is Soft Tissue Mass"
+    ],
+    "325": [
+        "There is no Soft Tissue Mass"
+    ],
+    "326": [
+        "There is Sterno-Clavicular Junction Hypertrophy"
+    ],
+    "327": [
+        "There is no Sterno-Clavicular Junction Hypertrophy"
+    ],
+    "328": [
+        "There is Sternotomy"
+    ],
+    "329": [
+        "There is no Sternotomy"
+    ],
+    "330": [
+        "There is Subacromial Space Narrowing"
+    ],
+    "331": [
+        "There is no Subacromial Space Narrowing"
+    ],
+    "332": [
+        "There is Subcutaneous Emphysema"
+    ],
+    "333": [
+        "There is no Subcutaneous Emphysema"
+    ],
+    "334": [
+        "There is Suboptimal Study"
+    ],
+    "335": [
+        "There is no Suboptimal Study"
+    ],
+    "336": [
+        "There is Superior Mediastinal Enlargement"
+    ],
+    "337": [
+        "There is no Superior Mediastinal Enlargement"
+    ],
+    "338": [
+        "There is Supra-Aortic Elongation"
+    ],
+    "339": [
+        "There is no Supra-Aortic Elongation"
+    ],
+    "340": [
+        "There is Surgery"
+    ],
+    "341": [
+        "There is no Surgery"
+    ],
+    "342": [
+        "There is Surgery Breast"
+    ],
+    "343": [
+        "There is no Surgery Breast"
+    ],
+    "344": [
+        "There is Surgery Heart"
+    ],
+    "345": [
+        "There is no Surgery Heart"
+    ],
+    "346": [
+        "There is Surgery Humeral"
+    ],
+    "347": [
+        "There is no Surgery Humeral"
+    ],
+    "348": [
+        "There is Surgery Lung"
+    ],
+    "349": [
+        "There is no Surgery Lung"
+    ],
+    "350": [
+        "There is Surgery Neck"
+    ],
+    "351": [
+        "There is no Surgery Neck"
+    ],
+    "352": [
+        "There is Suture Material"
+    ],
+    "353": [
+        "There is no Suture Material"
+    ],
+    "354": [
+        "There is Thoracic Cage Deformation"
+    ],
+    "355": [
+        "There is no Thoracic Cage Deformation"
+    ],
+    "356": [
+        "There is Total Atelectasis"
+    ],
+    "357": [
+        "There is no Total Atelectasis"
+    ],
+    "358": [
+        "There is Tracheal Shift"
+    ],
+    "359": [
+        "There is no Tracheal Shift"
+    ],
+    "360": [
+        "There is Tracheostomy Tube"
+    ],
+    "361": [
+        "There is no Tracheostomy Tube"
+    ],
+    "362": [
+        "There is Tuberculosis"
+    ],
+    "363": [
+        "There is no Tuberculosis"
+    ],
+    "364": [
+        "There is Tuberculosis Sequelae"
+    ],
+    "365": [
+        "There is no Tuberculosis Sequelae"
+    ],
+    "366": [
+        "There is Unchanged"
+    ],
+    "367": [
+        "There is no Unchanged"
+    ],
+    "368": [
+        "There is Vascular Hilar Enlargement"
+    ],
+    "369": [
+        "There is no Vascular Hilar Enlargement"
+    ],
+    "370": [
+        "There is Vascular Redistribution"
+    ],
+    "371": [
+        "There is no Vascular Redistribution"
+    ],
+    "372": [
+        "There is Ventriculo-Peritoneal Drain Tube"
+    ],
+    "373": [
+        "There is no Ventriculo-Peritoneal Drain Tube"
+    ],
+    "374": [
+        "There is Vertebral Anterior Compression"
+    ],
+    "375": [
+        "There is no Vertebral Anterior Compression"
+    ],
+    "376": [
+        "There is Vertebral Compression"
+    ],
+    "377": [
+        "There is no Vertebral Compression"
+    ],
+    "378": [
+        "There is Vertebral Degenerative Changes"
+    ],
+    "379": [
+        "There is no Vertebral Degenerative Changes"
+    ],
+    "380": [
+        "There is Vertebral Fracture"
+    ],
+    "381": [
+        "There is no Vertebral Fracture"
+    ],
+    "382": [
+        "There is Volume Loss"
+    ],
+    "383": [
+        "There is no Volume Loss"
+    ]
+}

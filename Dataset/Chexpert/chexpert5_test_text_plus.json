@@ -1,0 +1,32 @@
+{
+    "0": [
+        "There is Atelectasis"
+    ],
+    "1": [
+        "There is no Atelectasis"
+    ],
+    "2": [
+        "There is Cardiomegaly"
+    ],
+    "3": [
+        "There is no Cardiomegaly"
+    ],
+    "4": [
+        "There is Pulmonary Consolidation"
+    ],
+    "5": [
+        "There is no Pulmonary Consolidation"
+    ],
+    "6": [
+        "There is Pulmonary Edema"
+    ],
+    "7": [
+        "There is no Pulmonary Edema"
+    ],
+    "8": [
+        "There is Pleural Effusion"
+    ],
+    "9": [
+        "There is no Pleural Effusion"
+    ]
+}

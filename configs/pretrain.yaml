@@ -1,0 +1,90 @@
+experiment_name: 'VECL'
+phase: 'pretrain'
+trial_name:
+
+
+lightning:
+    trainer:
+       gpus: '0'
+       max_epochs: 15
+       distributed_backend: 'dp'
+       gradient_clip_val: 0.25
+       lr: 0.00005   
+       precision: 16
+       reload_dataloaders_every_epoch: True  # reload dataloader to change batch size
+    checkpoint_callback: 
+        monitor: 'val_loss'
+        dirpath: './data/ckpt'
+        save_last: True
+        mode: min
+        save_top_k: 1
+    early_stopping_callback:
+        monitor: 'val_loss'
+        min_delta: 0.00
+        patience: 10
+        verbose: False
+        mode: 'min'
+    logger:
+        logger_type: 'CSVLogger'  # WandbLogger
+        save_dir: './data/CSV'
+model:
+    norm: False
+    vision:   
+        model_name: 'vit_b_16'
+        freeze_encoder: False
+        pretrained: True
+        pretrained_path: "./pretrain_model/VITB-16-M3AE_last.ckpt"
+    text:  
+        bert_type: "Laihaoran/BioClinicalMPBERT"
+        last_n_layers: 4
+        aggregate_method: 'sum'
+        norm: False
+        embedding_dim: 768
+        freeze_bert: False
+        agg_tokens: True
+    fusion:
+        d_model: 768
+        H: 4
+        N: 4
+        dropout: 0.1
+        state_prob: 1
+        class_num: 1
+        decoder_number_layer: 4
+
+data: 
+    dataset: pretrain
+    text: 
+      word_num: 97
+      captions_per_image: 5
+    image:
+        imsize: 256
+
+transforms: 
+    norm: 'CXR_MAE'
+    random_crop:
+        crop_size: 224
+    random_horizontal_flip: 0.3
+    random_affine:
+        degrees: 30
+        translate: [0.1, 0.1]
+        scale: [0.9, 1.1]
+    color_jitter:
+        bightness: [0.8, 1.2]
+        contrast: [0.8, 1.2]
+
+train: 
+    update_interval: 1000
+    batch_size: 256
+    num_workers: 16
+    prefetch_factor: 2
+    nvis: 4
+    rand_vis: False
+    optimizer: 
+        name: 'Adam'
+        weight_decay: 1e-6
+    scheduler: 
+        name: 'plateau'
+        monitor: 'val_loss'
+        inerval: 'epoch'
+        frequency: 1
+    weight_decay: 0.001
