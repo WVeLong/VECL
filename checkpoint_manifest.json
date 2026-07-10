@@ -1,0 +1,28 @@
+{
+    "model":  "VECL MICCAI final checkpoint",
+    "release_asset":  "vecl_miccai_final.ckpt.part-*",
+    "source_path":  "/hdd/wuwl/project/VECL/data/ckpt/VECL_pretrain/2025_01_22_10_57_34/epoch=14-step=21999.ckpt",
+    "sha256":  "ef8d461de04e86d4c2d13d72edbf3f7192853e45bb788686534cf12432cb408a",
+    "size_bytes":  2568220445,
+    "selection_rule":  "Selected as the final checkpoint because the downstream zero-shot script already pointed to this run and it matched the planned tie-breaker among epoch=14-step=21999 candidates.",
+    "candidate_checkpoints":  [
+                                  {
+                                      "path":  "/hdd/wuwl/project/VECL/data/ckpt/VECL_pretrain/2025_01_22_10_57_34/epoch=14-step=21999.ckpt",
+                                      "experiment_name":  "VECL_pretrain",
+                                      "phase":  "pretrain",
+                                      "state_tensors":  433
+                                  },
+                                  {
+                                      "path":  "/hdd/wuwl/project/VECL/data/ckpt/pretrain_1.0/2024_10_28_20_51_25/epoch=14-step=21999.ckpt",
+                                      "experiment_name":  "pretrain_1.0",
+                                      "phase":  "pretrain",
+                                      "state_tensors":  433
+                                  }
+                              ],
+    "verification":  {
+                         "date":  "2026-07-10",
+                         "load_test":  "passed on CPU with local BioClinicalMPBERT and M3AE paths",
+                         "compileall":  "passed for VECL, downstream, tasks, helper, labeler, run.py, utils.py, mertics.py",
+                         "full_zero_shot":  "attempted but not completed in the interactive window: Open-I and CheXpert raw image roots were unavailable on the server; ChestXray14/ChestXDet10/PadChest PNC run exceeded 30 minutes before producing final metrics. Use README commands to rerun once raw dataset roots are available."
+                     }
+}

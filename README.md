@@ -43,7 +43,7 @@ Download the external pretrained components:
 
 - M3AE ViT-B/16 checkpoint: place it at `pretrain_model/VITB-16-M3AE_last.ckpt`, or set `VECL_M3AE_VITB16`.
 - BioClinicalMPBERT: defaults to `Laihaoran/BioClinicalMPBERT`; set `VECL_BIOCLINICAL_BERT` to a local Hugging Face directory for offline use.
-- VECL final checkpoint: download `vecl_miccai_final.ckpt` from the GitHub Release and place it at `pretrain_model/vecl_miccai_final.ckpt`, or set `VECL_FINAL_CKPT`.
+- VECL final checkpoint: download the `vecl_miccai_final.ckpt.part-*` files from the GitHub Release, concatenate them into `pretrain_model/vecl_miccai_final.ckpt`, and then set `VECL_FINAL_CKPT` if you place it elsewhere.
 
 ## Data and Path Configuration
 
@@ -136,7 +136,7 @@ NUM_CHUNKS=4 bash downstream/retrieval/retrieval_post_process.sh
 | `VITB-16-M3AE_last.ckpt` | external M3AE ViT-B/16 image encoder initialization | external download |
 | BioClinicalMPBERT | text encoder/tokenizer | Hugging Face or local cache |
 
-The final checkpoint is selected by comparing candidate checkpoints against the MICCAI paper metrics. See `checkpoint_manifest.json` in the Release assets for sha256, source path, and verification notes.
+The final checkpoint is selected by comparing candidate checkpoints against the MICCAI paper metrics. The checkpoint is split into Release assets named `vecl_miccai_final.ckpt.part-*`; concatenate them in lexical order to restore `vecl_miccai_final.ckpt`. See `checkpoint_manifest.json` in the Release assets for sha256, source path, and verification notes.
 
 ## Paper Results
 
@@ -161,3 +161,17 @@ Please cite the paper if you use this code.
 ## License
 
 This project is released under the MIT License.
+
+Restore split checkpoint on Linux/macOS:
+
+```bash
+cat vecl_miccai_final.ckpt.part-* > pretrain_model/vecl_miccai_final.ckpt
+sha256sum pretrain_model/vecl_miccai_final.ckpt
+```
+
+Restore split checkpoint on Windows PowerShell:
+
+```powershell
+Get-Content .\vecl_miccai_final.ckpt.part-* -AsByteStream -Raw | Set-Content .\pretrain_model\vecl_miccai_final.ckpt -AsByteStream
+Get-FileHash .\pretrain_model\vecl_miccai_final.ckpt -Algorithm SHA256
+```
