@@ -1,4 +1,4 @@
-# VECL: Medical Contrastive Learning of Positive and Negative Mentions
+# MICCAI 2025 VECL: Medical Contrastive Learning of Positive and Negative Mentions
 
 This repository contains the official code for **Medical Contrastive Learning of Positive and Negative Mentions**. VECL (Visual Entailment based Contrastive Learning) uses positive and negative mentions in radiology reports to build entailment, neutral, and contradiction relationships for medical vision-language pretraining.
 
