@@ -143,21 +143,58 @@ The final checkpoint is selected by comparing candidate checkpoints against the 
 
 ## Paper Results
 
-The paper evaluates VECL on:
+The paper compares VECL with representative medical vision-language baselines including MedCLIP, GLoRIA, MedKLIP, KAD, and CARZero. The key results below focus on the main comparisons; ablation studies are omitted here for readability.
 
-- Zero-shot classification: Open-I, CheXpert, ChestXray14, ChestXDet10, PadChest with POS and PNC evaluation.
-- Fine-tuning classification: ChestXray14 with 1%, 5%, and 10% training data.
-- Zero-shot grounding: ChestXDet10 Pointing Game.
-- Retrieval-based report generation: MIMIC-CXR NLG and clinical efficacy metrics.
+### Zero-shot classification
+
+VECL is evaluated with both Positive-Only Similarity (POS) and Positive-Negative Similarity (PNC). The table reports VECL against the strongest baseline score for each dataset/metric from Table 1.
+
+| Evaluation | Dataset | Best baseline AUC/F1 | VECL AUC/F1 |
+| --- | --- | --- | --- |
+| POS | Open-I | 0.839 / 0.283 | **0.839 / 0.341** |
+| POS | CheXpert5 | 0.909 / 0.549 | **0.915 / 0.664** |
+| POS | ChestXray14 | 0.803 / 0.289 | **0.816 / 0.309** |
+| POS | ChestXDet10 | 0.795 / 0.449 | **0.811 / 0.498** |
+| POS | PadChest | 0.804 / 0.114 | **0.822 / 0.147** |
+| PNC | Open-I | 0.756 / 0.184 | **0.813 / 0.333** |
+| PNC | CheXpert5 | 0.819 / 0.531 | **0.922 / 0.689** |
+| PNC | ChestXray14 | 0.704 / 0.180 | **0.792 / 0.291** |
+| PNC | ChestXDet10 | 0.675 / 0.383 | **0.780 / 0.470** |
+| PNC | PadChest | 0.700 / 0.051 | **0.775 / 0.116** |
+
+### Fine-tuning classification
+
+On ChestXray14, VECL improves low-data fine-tuning performance over KAD and CARZero.
+
+| Training data | Best baseline AUC/F1 | VECL AUC/F1 |
+| --- | --- | --- |
+| 1% | 0.813 / 0.153 | **0.826 / 0.338** |
+| 5% | 0.835 / 0.189 | **0.842 / 0.352** |
+| 10% | 0.839 / 0.196 | **0.845 / 0.361** |
+
+### Grounding and report generation
+
+| Method | ChestXDet10 Pointing Game | MIMIC-CXR RG-L | BL-1 | BL-2 | CIDEr | CE Precision | CE Recall | CE F1 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| KAD | 0.391 | 0.115 | 0.189 | 0.087 | 0.019 | 0.504 | 0.137 | 0.197 |
+| CARZero | 0.543 | 0.128 | 0.223 | 0.105 | 0.028 | 0.496 | 0.160 | 0.218 |
+| VECL | **0.683** | **0.128** | **0.223** | **0.105** | **0.029** | **0.574** | **0.204** | **0.273** |
+
+### Conclusion
+
+VECL addresses the mismatch between general-domain contrastive learning and medical reports, where negative mentions are common and clinically meaningful. By modeling entailment, neutral, and contradiction relationships between images and report sentences, VECL improves multimodal alignment and achieves strong results across zero-shot classification, low-data fine-tuning, zero-shot grounding, and retrieval-based report generation.
 
 Please cite the paper if you use this code.
 
 ```bibtex
-@inproceedings{wu2026vecl,
+@InProceedings{WuWei_Medical_MICCAI2025,
   title={Medical Contrastive Learning of Positive and Negative Mentions},
   author={Wu, WeiLong and Yang, Jingzhi and Zhu, Xun and Zhang, Xiao and Liu, ZiYu and Li, Miao and Wu, Ji},
-  booktitle={Medical Image Computing and Computer Assisted Intervention},
-  year={2026}
+  booktitle={Proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2025},
+  year={2025},
+  publisher={Springer Nature Switzerland},
+  volume={LNCS 15970},
+  pages={392--401}
 }
 ```
 
